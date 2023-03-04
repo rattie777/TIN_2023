@@ -1,15 +1,42 @@
+h1, h2, h3{
+    color: #666;
+}
+h1{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+ul{
+    list-style-type: circle;
+}
+p{
+    font-size: 14px;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  td, th {
+}
+
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+}
+  
